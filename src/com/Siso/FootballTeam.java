@@ -1,4 +1,4 @@
-package com.timbuchalka;
+package com.Siso;
 
 public class FootballTeam extends Team {
     public FootballTeam(String teamName) {

@@ -1,8 +1,6 @@
-package com.timbuchalka;
+package com.Siso;
 
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
 
 public class League<T extends Team> {
 

@@ -1,4 +1,6 @@
-package com.timbuchalka;
+// @author Jake Umut Siso
+
+package com.Siso;
 
 public class Main {
 
