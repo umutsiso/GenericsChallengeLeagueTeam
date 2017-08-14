@@ -1,6 +1,7 @@
 package com.Siso;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class League<T extends Team> {
 
@@ -36,6 +37,14 @@ public class League<T extends Team> {
         }
 
     }
+
+    public void showTable(){
+        Collections.sort(teamList);
+        for (T t : teamList){
+            System.out.println(t.getName() + ": " + t.ranking);
+        }
+    }
+
 
     public void printTeams(){
         for (int i = 0; i<teamList.size(); i++){

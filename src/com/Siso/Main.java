@@ -29,9 +29,18 @@ public class Main {
         myLeague.match(footballTeam3, footballTeam4, 3, 2);
         myLeague.printTeams();
 
+        System.out.println(" ============================");
+
         myLeague.addTeam(footballTeam6);
         myLeague.printTeams();
 
+        System.out.println(" ============================");
+
+        myLeague.showTable();
+
+        System.out.println(" ============================");
+
+        myLeague.printTeams();
 
     }
 }
